@@ -13,7 +13,7 @@ from wserver import start_server_async
 from bot import bot, IMAGE_URL, dispatcher, updater, botStartTime, IGNORE_PENDING_REQUESTS, IS_VPS, SERVER_PORT
 from bot.helper.ext_utils import fs_utils
 from bot.helper.telegram_helper.bot_commands import BotCommands
-from bot.helper.telegram_helper.message_utils import *
+from bot.helper.telegram_helper.message_utils import sendMarkup, sendMessage
 from .helper.ext_utils.bot_utils import get_readable_file_size, get_readable_time
 from .helper.telegram_helper.filters import CustomFilters
 from bot.helper.telegram_helper import button_build
