@@ -146,6 +146,8 @@ def bot_help(update, context):
 
 
 botcmds = [
+        (f'{BotCommands.StartCommand}','Start The Beautiful Bot!'),
+        (f'{BotCommands.SpeedCommand}','Check Speed of The BOT'),
         (f'{BotCommands.HelpCommand}','Get Detailed Help'),
         (f'{BotCommands.MirrorCommand}', 'Start Mirroring'),
         (f'{BotCommands.TarMirrorCommand}','Start mirroring and upload as .tar'),
