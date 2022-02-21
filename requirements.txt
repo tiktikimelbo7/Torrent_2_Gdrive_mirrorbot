@@ -1,4 +1,5 @@
 aiohttp
+discord
 anytree
 aria2p
 appdirs
@@ -20,13 +21,10 @@ pybase64
 pyrogram
 python-dotenv
 python-magic
-python-telegram-bot
 qbittorrent-api
 requests
 speedtest-cli
-telegraph
 tenacity
-TgCrypto
 torrentool
 urllib3
 youtube_dl
